@@ -14,7 +14,7 @@ if hist_button: # al hacer clic en el botón
 # escribir un mensaje
     st.header('Histograma') 
 
-    st.write('Creación de un histogramax para el conjunto de datos de anuncios de venta de coches') 
+    st.write('Creación de histogramas para el conjunto de datos de anuncios de venta de coches') 
     
     fig = px.histogram(car_data, x="odometer",
                            title='Distribución del kilometraje de los vehículos.')
